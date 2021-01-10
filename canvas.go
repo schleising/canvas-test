@@ -7,7 +7,7 @@ import (
 func main() {
 	canvas := canvas.Initialise("canvas")
 
-	canvas.SetFillStyle("FF8800")
+	canvas.SetFillStyle("#FF8800")
 
-	canvas.FillRect(10, 20, 1000, 200)
+	canvas.FillRect(10, 20, 100, 200)
 }
